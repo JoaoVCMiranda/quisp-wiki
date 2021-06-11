@@ -1,4 +1,4 @@
-# step to set up a Windows development environment for QuISP
+# [Work in Progress] step to set up a Windows development environment for QuISP 
 
 ## download OMNeT++5 and OMNeT++6 preview
 
