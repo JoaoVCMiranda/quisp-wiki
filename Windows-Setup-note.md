@@ -1,6 +1,6 @@
 # [Work in Progress] step to set up a Windows development environment for QuISP 
 
-## [work in progress] script
+## [work in progress] setup script
 ```cmd
 IF NOT EXIST "omnet5.zip" (curl -o omnet5.zip -LJ --url "https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.2/omnetpp-5.6.2-src-windows.zip")
 IF NOT EXIST "omnet6.zip" (curl -o omnet6.zip -LJ --url "https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre11/omnetpp-6.0pre11-src-windows.zip")
@@ -26,6 +26,7 @@ pause
 call "omnetpp-5.6.2\mingwenv.cmd"
 ```
 
+# detail
 ## download OMNeT++5 and OMNeT++6 preview
 
 choose windows and download it and unzip it
