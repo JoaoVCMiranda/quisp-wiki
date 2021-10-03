@@ -1,7 +1,7 @@
 # INSTALLATION
 
 This document walks you through downloading QuISP, then installing and
-building the related software automatically.  Importing QuISP itself into OmNET++
+building the related software.  Importing QuISP itself into OMNeT++
 and building and executing it can be done in two distinct ways,
 documented separately (scroll down to the end of this document).
 
@@ -46,12 +46,10 @@ home/
         └── .git/
 ```
 
-## OmNET++
+## OMNeT++
 
-Get the release of OmNET++ 5.6.1 from [their website](https://omnetpp.org/) and uncompress it in the folder of your
-choice. To remain general, this example uncompresses it in a local
-libraries folder, far from the quisp project and from standard
-installation folders.
+Get the release of OMNeT++ 5.6.2 from [their website](https://omnetpp.org/) and uncompress it in the folder of your
+choice. To remain general, this example uncompresses it in a local libraries folder, far from the quisp project and from standard installation folders.
 
 ```
 home/
@@ -59,12 +57,12 @@ home/
 │   └── quisp/
 │       └── .git/
 └── downloads/
-    └── omnetpp-5.6.1-src-linux.tgz
+    └── omnetpp-5.6.2-src-linux.tgz
 ```
 
 ```sh
 /home λ mkdir -p .local/lib && cd .local/lib
-/home/.local/lib λ tar -xzf /home/downloads/omnetpp-5.6.1-src-linux.tgz
+/home/.local/lib λ tar -xzf /home/downloads/omnetpp-5.6.2-src-linux.tgz
 ```
 
 At this point there is no `omnetpp` binary because you still need to build from
@@ -76,10 +74,10 @@ home/
 │   └── quisp/
 │       └── .git/
 ├── downloads/
-│   └── omnetpp-5.6.1-src-linux.tgz
+│   └── omnetpp-5.6.2-src-linux.tgz
 └── .local/
     └── lib/
-        └── omnetpp-5.6.1/
+        └── omnetpp-5.6.2/
             ├── configure*
             ├── INSTALL
             ├── Makefile
@@ -94,13 +92,11 @@ home/
 Building information is available in the `doc/InstallGuide.pdf` file of their
 source release. Here is a quick version of it on linux.
 
-Compiling OmNET++ takes time. Be patient.
+Compiling OMNeT++ takes time. Be patient.
 
 ```sh
-/home/.local/lib/omnetpp-5.6.1 λ source setenv
-/home/.local/lib/omnetpp-5.6.1
-
-/home/.local/lib/omnetpp-5.6.1 λ ./configure
+/home/.local/lib/omnetpp-5.6.2 λ source setenv
+/home/.local/lib/omnetpp-5.6.2 λ ./configure
 checking build system type... x86_64-unknown-linux-gnu
 checking host system type... x86_64-unknown-linux-gnu
 configure: -----------------------------------------------
@@ -112,9 +108,9 @@ checking for gcc... gcc
 
 ...
 
-Your PATH contains /tmp/tmp.home/home/.local/lib/omnetpp-5.6.1/bin. Good!
+Your PATH contains /tmp/tmp.home/home/.local/lib/omnetpp-5.6.2/bin. Good!
 
-/home/.local/lib/omnetpp-5.6.1 λ make -j9
+/home/.local/lib/omnetpp-5.6.2 λ make -j9
 make -s MODE=release
 ***** Configuration: MODE=release, TOOLCHAIN_NAME=gcc, LIB_SUFFIX=.so ****
 ===== Checking environment =====
@@ -126,30 +122,16 @@ Creating executable: out/gcc-debug//osg-satellites_dbg
 Now you can type "omnetpp" to start the IDE
 ```
 
-Among other things, this gives you access to the OmNET++ IDE via the executable
-file `omnetpp`.
-
-```
-home/
-└── .local/
-    └── lib/
-        └── omnetpp-5.6.1/
-            └── bin/
-                └── omnetpp*
-```
-
 ## Help Me!!!
 
-If you are having trouble with the install and the answers aren't
-here, you can peruse the [Frequently Asked Questions
-(FAQ)](FAQ.md).
+If you are having trouble with the install, you can peruse the [FAQ](/sfc-aqua/quisp/wiki/FAQ).
 
 ## Next Step: QuISP!
 
 There are two main ways of working with QUISP. You can either use the
-Eclipse-like graphical interface of OmNET++, for which you will find
-instructions in [doc/USAGE-omnetpp-gui.md](USAGE-omnetpp-gui.md),
+Eclipse-based graphical interface of OMNeT++, for which you will find
+instructions in [Setup OMNeT++ IDE](/sfc-aqua/quisp/wiki/Setup-OMNeT-IDE),
 or you can use the `Makefile` and GNU make, by looking at instructions
-in [doc/USAGE-makefile.md](USAGE-makefile.md). Some operations are
+in [Setup GNU Make](/sfc-aqua/quisp/wiki/Setup-GNU-Make). Some operations are
 implemented in the Makefile and not explained for the graphical user
 interface.
