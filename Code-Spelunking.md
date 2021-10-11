@@ -1,4 +1,4 @@
-# Code Spelunking: Your First Foray #
+# Your First Foray #
 
 There are several hundred pages of documentation [available on the OMNeT++ website](https://omnetpp.org/documentation/).  You'll want to
 begin finding your way around in that.
