@@ -1,4 +1,4 @@
-Welcome to the quisp wiki!
+Welcome to the QuISP wiki!
 
 ### 1. OMNeT++ Installation
   * [Docker](User-Guide-Docker)
