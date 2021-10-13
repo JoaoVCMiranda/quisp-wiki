@@ -1,6 +1,8 @@
 Welcome to the QuISP wiki!
 
 ### 1. OMNeT++ Installation
+the latest version is 5.7
+  * [Official Installation Guide for OMNeT++5.6.1](https://doc.omnetpp.org/omnetpp/InstallGuide.pdf)
   * [Docker](User-Guide-Docker)
   * Native
     * [Linux](User-Guide-Linux)
