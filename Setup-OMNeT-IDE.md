@@ -1,7 +1,7 @@
 # Running the OmNET++ GUI
 
 We are working with the following installation tree.  You are assumed
-to have just come from [doc/INSTALL.md](INSTALL.md).  These
+to have just OMNeT++ IDE in your system.  These
 instructions are geared toward native installation on a UNIX-like
 system (e.g., Mac or Linux).  What is here should be of some use on
 all platforms, but if you are working on Docker, you will need [docker
@@ -73,19 +73,6 @@ Then you need to specify how to find the Eigen library. Click `Options...` below
 `Makemake`, then in the `Compile` tab you will have a category called
 `Include directories`.
 
-To this list, you should add one folder.  
-  
-Following is how we mostly configure our directory structure for Eigen3. However, this is just our recommendation; While our 'recommended' way helps you to build your project smoothly, you can change it as long as you know what you're doing.  
-For Eigen3, it's fine to install it anywhere. The core of the matter is **including Eigen3's location from OmNET++ correctly.**
-
-> With the local Eigen installation in
-> this example you can add `/home/.local/lib/eigen-source`, and with the system
-> installation you can add `/usr/local/share/eigen3`.
-
-> If you're using Mac OSX, you can put `/Users/<home directory>/.local/lib/eigen-source` or
-> `/usr/local/share/eigen3`
-
-
 Then, in the category `C/C++ Build`, click `Manage configurations` and make the
 release configuration active.
 
@@ -105,16 +92,14 @@ home/
 ```
 
 Now you should be able to build the project with `Ctrl+B` or `Project > Build all`
-for example. If you got a message ' fatal error: 'PhotonicQubit_m.h' file not found `  during the build, you should add './quisp' to the Include Path in the Makemake Options →Compile
+for example.
+
+ <!-- If you got a message ' fatal error: 'PhotonicQubit_m.h' file not found `  during the build, you should add './quisp' to the Include Path in the Makemake Options →Compile -->
+
 
 ## Running interesting simulations
 
 You should now be ready to simulate quantum networks!  Three places
 you can go:
 
-* Go to [running demos](running-demos.md).
-* One good source of info for "now what?" is the [Windows install
-  doc](Build_on_windows.md).  Follow that, skip the basic instructions
-  and pick up where it starts working with the examples.
-* Just return to [the top-level readme](../README.md) and check
-  options from there.
+* Go to [running demos](Running-Basic-QuISP-Demos).
