@@ -1,11 +1,11 @@
-## Install GNU Make
+<!-- ## Install GNU Make
 run `$ brew install make`. then you can check `$ gmake --version`. 
 if you don't have `brew` command, install [HomeBrew](https://brew.sh/) first.
 
 In MacOS, `make` is provided as `/usr/bin/make`, but its version is 3.81. 
 This version cannot build OMNeT++ properly. HomeBrew installs GNU Make 4 as `gmake`.
 when you run `source setenv`, your system aliases `make` to `gmake`.
-
+-->
 
 ## Download OMNeT++5
 1. get the latest release (5.7 for now) of OMNeT++ for MacOS from their website [https://omnetpp.org/download/](https://omnetpp.org/download/). <br/>click "MAC OS" tab, and then click the green "DONWLOAD" button. <img src="https://i.imgur.com/ZC7bwRo.png"/>
