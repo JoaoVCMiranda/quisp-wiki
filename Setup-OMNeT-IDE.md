@@ -1,12 +1,5 @@
-# Running the OmNET++ GUI
-
 We are working with the following installation tree.  You are assumed
-to have just OMNeT++ IDE in your system.  These
-instructions are geared toward native installation on a UNIX-like
-system (e.g., Mac or Linux).  What is here should be of some use on
-all platforms, but if you are working on Docker, you will need [docker
-install doc](Build_on_docker.md).  If you are on Windows, see the
-[Windows install doc](Build_on_windows.md).
+to have just OMNeT++ IDE in your system.
 
 ```
 home/
