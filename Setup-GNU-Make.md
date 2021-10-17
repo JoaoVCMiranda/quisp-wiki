@@ -1,5 +1,5 @@
 We are working with the following installation tree.  You are assumed
-to have just come from [doc/INSTALL.md](INSTALL.md).
+to have just come from [Install OMNeT++](https://github.com/sfc-aqua/quisp/wiki#1-omnet-installation).
 
 ```
 home/
@@ -68,27 +68,6 @@ You can directly run the build using `make`.
 
 ```sh
 (quisp) /home/projects/quisp λ make
-```
-
-Here is a list of quickly fixed common errors that you could get.
-
-### Unable to find Eigen
-
-```
-fatal error: unsupported/Eigen/MatrixFunctions: No such file or directory
-```
-
-This means your Eigen library is not installed in `/usr/local/include`. You do
-not need to move your installation. In my example I installed it in
-`/home/.local/lib/eigen-source`. Open the newly created `quisp/.oppbuildspec`
-and change the path to the Eigen library.
-
-```diff
- <?xml version="1.0" encoding="UTF-8" standalone="no"?>
- <buildspec version="4.0">
--  <dir makemake-options="--deep -O out -I. -I/usr/local/include/eigen3 --meta:recurse --meta:export-include-path --meta:use-exported-include-paths --meta:export-library --meta:use-exported-libs --meta:feature-cflags --meta:feature-ldflags" path="." type="makemake"/>
-+  <dir makemake-options="--deep -O out -I. -I/home/.local/lib/eigen-source --meta:recurse --meta:export-include-path --meta:use-exported-include-paths --meta:export-library --meta:use-exported-libs --meta:feature-cflags --meta:feature-ldflags" path="." type="makemake"/>
- </buildspec>
 ```
 
 ## Running QUISP
