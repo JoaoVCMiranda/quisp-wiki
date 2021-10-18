@@ -1,13 +1,4 @@
-# INSTALLATION
-
-This document walks you through downloading QuISP, then installing and
-building the related software.  Importing QuISP itself into OMNeT++
-and building and executing it can be done in two distinct ways,
-documented separately (scroll down to the end of this document).
-
-You should assume that reading the instructions, installing from
-source, and getting QuISP to run will take you two to four hours the
-first time.
+# Install OMNeT++5
 
 ## Notation
 
@@ -22,33 +13,9 @@ HELLO WORLD
 You type the part after the lambda character (beginning with "echo" in
 the example above).
 
-## QUISP
-
-You can get the source for quisp and put it pretty much anywhere you want.
-
-```sh
-/home λ mkdir projects && cd projects
-/home/projects λ git clone https://github.com/sfc-aqua/quisp.git
-Cloning into 'quisp'...
-remote: Counting objects: 1222, done.
-remote: Compressing objects: 100% (1006/1006), done.
-remote: Total 1222 (delta 895), reused 287 (delta 176)
-Receiving objects: 100% (1222/1222), 3.79 MiB | 1.61 MiB/s, done.
-Resolving deltas: 100% (895/895), done.
-```
-
-At this point your file system looks like this.
-
-```
-home/
-└── projects/
-    └── quisp/
-        └── .git/
-```
-
 ## OMNeT++
 
-Get the release of OMNeT++ 5.6.2 from [their website](https://omnetpp.org/) and uncompress it in the folder of your
+Get the release of OMNeT++ 5.6.2 or later from [their website](https://omnetpp.org/download/) and uncompress it in the folder of your
 choice. To remain general, this example uncompresses it in a local libraries folder, far from the quisp project and from standard installation folders.
 
 ```
@@ -65,8 +32,7 @@ home/
 /home/.local/lib λ tar -xzf /home/downloads/omnetpp-5.6.2-src-linux.tgz
 ```
 
-At this point there is no `omnetpp` binary because you still need to build from
-the source release.
+At this point, there is no `omnetpp` binary because you still need to build from the source release.
 
 ```
 home/
@@ -87,10 +53,10 @@ home/
             └── doc/
 ```
 
-### Building OmNET++
+### Building OMNeT++
 
-Building information is available in the `doc/InstallGuide.pdf` file of their
-source release. Here is a quick version of it on linux.
+Building information is available in the `doc/InstallGuide.pdf` file of their source release. 
+Here is a quick version of it on linux.
 
 Compiling OMNeT++ takes time. Be patient.
 
@@ -128,10 +94,4 @@ If you are having trouble with the install, you can peruse the [FAQ](/sfc-aqua/q
 
 ## Next Step: QuISP!
 
-There are two main ways of working with QUISP. You can either use the
-Eclipse-based graphical interface of OMNeT++, for which you will find
-instructions in [Setup OMNeT++ IDE](/sfc-aqua/quisp/wiki/Setup-OMNeT-IDE),
-or you can use the `Makefile` and GNU make, by looking at instructions
-in [Setup GNU Make](/sfc-aqua/quisp/wiki/Setup-GNU-Make). Some operations are
-implemented in the Makefile and not explained for the graphical user
-interface.
+Go to [Setup OMNeT++ IDE](/sfc-aqua/quisp/wiki/Setup-OMNeT-IDE).
