@@ -1,5 +1,3 @@
-# Installating OMNeT++ GUI
-
 ## Download OMNeT++5
 1. download Windows build from [here](https://omnetpp.org/download/).
 2. OMNeT++ will be downloaded as a zip file. Once the download is complete, extract the file, you should see these files in the extracted directory.
