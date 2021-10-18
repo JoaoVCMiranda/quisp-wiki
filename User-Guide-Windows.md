@@ -1,38 +1,27 @@
-# Installating Omnetpp GUI and Native Quisp on Windows OS
+# Installating OMNeT++ GUI
 
-## TL;DR
-* Before You Start
-* OMNeT++ Installation
-* Install Needed Tools for the GUI
-* Cloning and Building Quisp
-* Running A Simulation
-
-
-## Before You Start
-Before you begin installing OMNeT++ and Quisp, make sure you have a C++ compiler on computer. If you do, skip to step 1, if you don't, head to [this](https://www.tutorialspoint.com/How-do-I-set-up-C-Cplusplus-on-Eclipse-in-Windows) link and get your compiler set up and then come back and go to step 1!
-
-
-## 1- OMNeT++ Installation
-
-OMNeT++ is an extensible, modular, component-based C++ simulation library and framework and is used to simulate the network. To download it, please click [here](https://omnetpp.org/download/).
-
-OMNeT++ will be downloaded as a zip file. Once the download is complete, extract the file, you should see these files in the extracted directory.
-
+## Download OMNeT++5
+1. download Windows build from [here](https://omnetpp.org/download/).
+2. OMNeT++ will be downloaded as a zip file. Once the download is complete, extract the file, you should see these files in the extracted directory.
 
 ![](https://i.imgur.com/oV6n4N4.png)
+3. put it where you want.
 
-
-Run *mingwenv.cmd*, which will start a console with the MSYS bash shell.
-
-In the shell type the following commands:
+## Build OMNeT++5
+click `mingwenv.cmd`, which will start a console with the MSYS bash shell.
+In the shell, type the following commands:
 
 ```
 $ ./configure
 $ make
 ```
-
+and then, it starts OMNeT++ build.
 This might take a while to finish executing.
 
+
+
+
+## Check the build
 **To verify** that the installation has been successful, run the following:
 
 ```
@@ -59,7 +48,10 @@ Yay!! your installation was successful!!
 $ omnetpp
 ```
 
+### Caveat
 *Whenever you want to run omnetpp, you will need to run from the mingwenv console*
+because this command starts MinGW and adjusts your environment variables.
+If you skip this, you can't use OMNeT++ related commands (e.g. `opp_makemake`).
 
 
 
