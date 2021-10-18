@@ -49,48 +49,20 @@ quisp/
 
 ## Configure building
 
-Open `Project > Properties` for the quisp project.
-
-<img src="https://i.imgur.com/BTE7Bl1.png" width="50%" height="25%">
+Right click `quisp` in the project explorer and click `Property`.
+<img src="https://i.imgur.com/BTE7Bl1.png" width="30%" height="25%">
 
 then in the category `OMNeT++ > Makemake` you should get a warning.
 *No makefile has been specified for this project.*
 <img src="https://i.imgur.com/cDj1HWg.png" width="50%" height="50%">
 
 
-Click on the `quisp` folder below the warning, select the `Makemake` box.
-
-Then you need to specify how to find the Eigen library. Click `Options...` below
-`Makemake`, then in the `Compile` tab you will have a category called
-`Include directories`.
-
-Then, in the category `C/C++ Build`, click `Manage configurations` and make the
-release configuration active.
-
-After this, a new file `quisp/.oppbuildspec` is created by OmNET++ and ignored
-by git.
-
-```
-home/
-└── projects/
-    └── quisp/
-        ├── .git/
-        ├── setenv*
-        ├── .metadata/
-        └── quisp/
-            ├── .settings/
-            └── .oppbuildspec
-```
+Click on the `quisp` folder below the warning, select the `Makemake` box and click `Apply and close`.
+<img src="https://i.imgur.com/kCxhNjo.png" width="50%" height="50%">
 
 Now you should be able to build the project with `Ctrl+B` or `Project > Build all`
 for example.
 
- <!-- If you got a message ' fatal error: 'PhotonicQubit_m.h' file not found `  during the build, you should add './quisp' to the Include Path in the Makemake Options →Compile -->
-
-
 ## Running interesting simulations
 
-You should now be ready to simulate quantum networks!  Three places
-you can go:
-
-* Go to [running demos](Running-Basic-QuISP-Demos).
+You should now be ready to simulate quantum networks! Go to [running demos](Running-Basic-QuISP-Demos).
