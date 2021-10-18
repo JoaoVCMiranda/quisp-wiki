@@ -67,5 +67,5 @@ linetokenizer.cc
 ...
 ```
 ## Start OMNeT++5 IDE 
-1. run `omnetpp`
-then you can see the eclipse based OMNeT++ IDE
+run `omnetpp` then you can see the eclipse based OMNeT++ IDE.
+Go to [Building QuISP with OMNeT++ IDE](/sfc-aqua/quisp/wiki/Building-QuISP-with-OMNeT-IDE)
