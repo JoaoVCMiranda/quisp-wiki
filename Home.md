@@ -8,18 +8,18 @@ the latest version is 5.7
   * [Official Installation Guide for OMNeT++5.6.1](https://doc.omnetpp.org/omnetpp/InstallGuide.pdf)
   * [Docker](User-Guide-Docker)
   * Native
-    * [Linux](User-Guide-Linux)
-    * [MacOS](User-Guide-MacOS)
-    * [Windows](User-Guide-Windows)
+    * [Linux](Install-OMNeT---for-Linux)
+    * [MacOS](Install-OMNeT---for-MacOS)
+    * [Windows](Install-OMNeT---for-Windows)
 
 ### 2. Build QuISP and run a simulation
-* [Using OMNeT++ IDE](Setup-OMNeT-IDE)
+* [Using OMNeT++ IDE](Building-QuISP-with-OMNeT-IDE)
 * [Running Basic Demos](Running-Basic-QuISP-Demos)
 * [FAQ](FAQ)
 
 ### 3. Setup Development Environment
 if you plan to contribute to QuISP, these pages would help you.
-* [Using GNU Make](Setup-GNU-Make)
+* [Using GNU Make](Building-QuISP-with-GNU-Make)
 * [Setup VSCode](Setup-Visual-Studio-Code)
 * [Additional Setup for Windows for OMNeT++5.6.x](Windows-Setup-note)
 
