@@ -19,9 +19,11 @@ Starting the OMNeT++ IDE...
 
 This starts the Eclipse Launcher.
 When asked to select your workspace, choose the quisp folder (here, `/home/projects/quisp`, not `/home/projects/quisp/quisp`). 
+
 <img src="https://i.imgur.com/xKQGQvr.png"  width="50%" height="50%">
 
 Then, open the Workbench. When warned that your workspace is empty, refuse to install samples and INET framework.
+
 <img src="https://i.imgur.com/LKJJgDX.png" width="50%" height="50%">
 
 Finally, import the QUISP project into your workspace. 
@@ -32,6 +34,7 @@ You can use the `File > Import...` menu, then select the `General > Existing Pro
 As a root directory of the project, select the quisp folder.
 In the list of suggested projects, check the only project that appears then
 click `Finish`.
+
 <img src="https://i.imgur.com/V41W3Wp.png" width="50%" height="50%">
 
 When you did this, the GUI created two folders, `.metadata` for the
