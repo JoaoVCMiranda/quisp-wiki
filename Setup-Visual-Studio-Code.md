@@ -2,8 +2,8 @@ Visual Studio Code is the editor of choice for many people (and most of our team
 
 ## Prerequisites
 
-* You should have a working build of QuISP. If you haven't done so please follow this [guide](/doc/README.md) Intro & Install section.
-* You should have [opp_test and unit test (googletest) working and running](/doc/development_setup/README.md). 
+* You should have a working build of QuISP. If you haven't done so please follow this [guide](../) Intro & Install section.
+* You should have [opp_test and unit test (googletest) working and running](../). 
 
 ## Setup formatter and linter
 
@@ -11,7 +11,7 @@ We recommend using [clangd](https://clangd.llvm.org) since it has VSCode integra
 
 ### Steps to setup clangd
 
-In this guide, we use [Homebrew](https://brew.sh) as our choice of package manager. If your preference is to use other package manager (e.g. [MacPorts](https://www.macports.org)) or install it from source, we won't cover it here.
+In this guide, we use [Homebrew](https://brew.sh) as our choice of a package manager. If your preference is to use another package manager (e.g. [MacPorts](https://www.macports.org)) or install it from source, we won't cover it here.
 
 01. installing llvm (clangd is packaged with the llvm)
 
@@ -32,7 +32,7 @@ $ clangd version 12.0.0
 ```
 
 03. Go to your VSCode and make sure to **uninstall or disable** official [C/C++ extension from Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) since this extension can have weird interaction or making some features not working properly with clangd extension.
-04. Once you confirmed that C/C++ extension from Microsoft is **disabled** or **not installed**. Choose View –> Extensions, then search for “clangd” and install it.
+04. Once you confirmed that the C/C++ extension from Microsoft is **disabled** or **not installed**. Choose View –> Extensions, then search for “clangd” and install it.
 05. At this point, clangd still won't work properly because clangd relies on a file called `compiled_command.json` which contains the information of the project should be compiled. If you navigate to the code file in VSCode now (e.g. QuantumChannel.cc), you should see errors that it does not know where `omnetpp.h` is or error indicating wrong class name.
 06. In QuISP we use [GNU Make](https://www.gnu.org/software/make/) to build our project. So in order to create `compiled_command.json` we recommend using [Bear](https://github.com/rizsotto/Bear). Bear is a tool for generating compilation database which clang tools uses (including clangd).
 07. Install Bear via Homebrew
