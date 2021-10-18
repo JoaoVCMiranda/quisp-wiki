@@ -1,4 +1,5 @@
-# step to set up a Windows development environment for QuISP 
+# step to set up a Windows development environment for QuISP
+If you're using OMNeT++5.7, you don't need to do these steps. you already have the new version of toolchain.
 
 ## TL;DR setup script
 ```cmd
@@ -57,7 +58,7 @@ install eigen and set `PKG_CONFIG_PATH` and tweak `eigen3.pc`
 you need to run `cmake .. -G "Unix Makefiles" in the `googletest/build` dir. later I'll send PR to fix this
 
 # note
-for development QuISP with windows. we need [clang](https://clang.llvm.org/) 11 or later and its toolchain (clang-format and clang-tidy), 
+for development QuISP with windows, we need [clang](https://clang.llvm.org/) 11 or later and its toolchain (clang-format and clang-tidy), 
 but OMNeT++5 contains an old version of msys2 and the toolchain.
 [msys2](https://www.msys2.org/) provides [pacman](https://wiki.archlinux.org/title/pacman) the package manager, 
 but we cannot update the toolchain (includes clang) 
