@@ -17,17 +17,28 @@ home/
         └── eigen-source/
 ```
 
-To run the OmNET++ GUI, you need to use their `setenv` script.
+## Set up environment
+If you are using Windows, don't forget to click `mingwenv.cmd`.
 
+If you are using Docker, skip this step.
+
+If you are using Linux or MacOSX, you need to run `. setenv` to run the OmNET++ IDE.
+```sh
+$ source setenv
+Environment for 'omnetpp-5.x' in directory '/home/.local/lib/omnetpp-5.x' is ready.
 ```
-/home/.local/lib/omnetpp-5.6.1 λ source setenv
-/home/.local/lib/omnetpp-5.6.1
-/home/.local/lib/omnetpp-5.6.1 λ omnetpp
+
+
+
+and then, run `omnetpp` command to start OMNeT++ IDE
+```sh
+$ omnetpp
 Starting the OMNeT++ IDE...
 ```
 
-This starts the Eclipse Launcher. When asked to select your workspace,
-choose the quisp folder (here, `/home/projects/quisp`).
+This starts the Eclipse Launcher.
+When asked to select your workspace, choose the quisp folder (here, `/home/projects/quisp`, not `/home/projects/quisp/quisp`). 
+<img src="https://i.imgur.com/xKQGQvr.png"  width="50%" height="50%">
 
 Then, open the Workbench. When warned that your workspace is empty, refuse
 to install samples.
