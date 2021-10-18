@@ -12,7 +12,7 @@ of questions we frequently ask ourselves.
   _are_ a lot of dependencies on other free software packages, as well
   as on Java.  The easiest install may be on a clean Ubuntu
   distribution, which can be done using Docker if you don't have such
-  a machine handy.  See [doc/INSTALL.md](INSTALL.md) for
+  a machine handy.  See [Install OMNeT++](/sfc-aqua/quisp/wiki#1-omnet-installation) for
   additional info on troubleshooting.
 
 ### Q: I tried to build QuISP from inside OMNeT++, and it bombs with some error about cocoa?!?
@@ -24,20 +24,22 @@ of questions we frequently ask ourselves.
     floating around, and I'm not certain which you need.
 
 ### Q: I tried to start omnetpp, and I got this:
-![setenv error](https://i.imgur.com/iGL4n0u.png)
+<img alt="setenv error" src="https://i.imgur.com/iGL4n0u.png" width="50%" height="50%" >
 
 - A: Same as above.  Do `. setenv` and try again, and it might work.
 
 ### Q: I get a Java error about a null pointer when I try to run
 `quisp_tutorial.ini`or anything other than `omnetpp.ini`.
-![Java nullpointer error](https://i.imgur.com/h7w3ye6.png)
+
+<img alt="Java null pointer error" src="https://i.imgur.com/h7w3ye6.png" width="50%" height="50%" >
 
 - A: You might need to go to the Run menu and pick "Run As OMNeT++
     Simulation".
 
 ### Q: trouble with using xhost command
 If you get this kind of error message when you use `xhost` command, 
-![](https://i.imgur.com/DCM1Rd5.png)
+
+<img src="https://i.imgur.com/DCM1Rd5.png" width="50%" height="50%">
 
 - A: You can fix this with
 ```zsh
@@ -49,22 +51,17 @@ export PATH="/opt/X11/lib$PATH"
 
 * Q: Wow, OMNeT++ runs!!! Exciting! ...now what?
     
-- A: See [the basic installation
-    notes](INSTALL.md) if you haven't, which will show you how to add
-    QuISP into OMNeT++, and run your first QuISP sims.  At the bottom
-    of that you will find links to further build instructions, or you
-    can skip straight to the [running demos](running-demos.md) if
-    you've already gotten QuISP installed.
+- A: See [the basic installation notes](/sfc-aqua/quisp/wiki#2-build-quisp-and-run-a-simulation) if you haven't, which will show you how to add QuISP into OMNeT++, and run your first QuISP sims.  
+At the bottom of that you will find links to further build instructions, 
+or you can skip straight to the [running demos](/sfc-aqua/quisp/wiki/Running-Basic-QuISP-Demos) if you've already gotten QuISP installed.
 
 * Q: Okay, I got the basic first QuISP demo running.  What the heck
   are these .ini and .ned files, and how do I create my own?
 
-- A: Yup...  See, of course, [the OMNeT++
-  documentation](https://doc.omnetpp.org/omnetpp/manual/).  There is a
-  _very_ brief description at the [running demos](running-demos.md) doc.
+- A: Yup...  See, of course, [the OMNeT++ documentation](https://doc.omnetpp.org/omnetpp/manual/).
+  There is a _very_ brief description at the [running demos](/sfc-aqua/quisp/wiki/Running-Basic-QuISP-Demos) doc.
 
-* Q: There are a bunch of parameters in the .ini file that aren't
-  described in the OMNeT++ documentation.  What are they?
+* Q: There are a bunch of parameters in the .ini file that isn't described in the OMNeT++ documentation.  What are they?
     
 - A: Probably, you're looking at the quantum-specific parameters.
   At the moment, the best source of information on them is [Takaaki
@@ -77,7 +74,7 @@ export PATH="/opt/X11/lib$PATH"
   learning to do, but hopefully our existing code serves as a good
   guide to what you'll need.  See also, of course, [the OMNeT++
   documentation](https://doc.omnetpp.org/omnetpp/manual/).
-  There are a lot of [software design documents](software-design.md),
+  There are a lot of [software design documents](https://github.com/sfc-aqua/quisp/blob/master/doc/software-design.md),
   which are potentially all suspect, as the code is evolving faster
   than the designs, and many elements of the desired design are still
   far from being implemented.  But all of this should help you help
