@@ -167,6 +167,6 @@ Enjoy the simulated results!!
 You should now be ready to simulate quantum networks!  Two places
 you can go:
 
-* Go to [running demos](running-demos.md).
+* Go to [running demos](/sfc-aqua/quisp/wiki/Running-Basic-QuISP-Demos).
 * Just return to [the top-level readme](../README.md) and check
   options from there.
