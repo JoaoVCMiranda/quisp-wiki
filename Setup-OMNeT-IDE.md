@@ -1,21 +1,4 @@
-We are working with the following installation tree.  You are assumed
-to have just OMNeT++ IDE in your system.
-
-```
-home/
-├── projects/
-│   └── quisp/
-│       ├── .git/
-│       ├── setenv*
-│       └── quisp/
-└── .local/
-    └── lib/
-        ├── omnetpp-5.6.1/
-        │   ├── setenv*
-        │   └── bin/
-        │       └── omnetpp*
-        └── eigen-source/
-```
+You are assumed to have just OMNeT++ IDE in your system.
 
 ## Set up environment
 If you are using Windows, don't forget to click `mingwenv.cmd`.
@@ -28,8 +11,6 @@ $ source setenv
 Environment for 'omnetpp-5.x' in directory '/home/.local/lib/omnetpp-5.x' is ready.
 ```
 
-
-
 and then, run `omnetpp` command to start OMNeT++ IDE
 ```sh
 $ omnetpp
@@ -40,36 +21,42 @@ This starts the Eclipse Launcher.
 When asked to select your workspace, choose the quisp folder (here, `/home/projects/quisp`, not `/home/projects/quisp/quisp`). 
 <img src="https://i.imgur.com/xKQGQvr.png"  width="50%" height="50%">
 
-Then, open the Workbench. When warned that your workspace is empty, refuse
-to install samples.
+Then, open the Workbench. When warned that your workspace is empty, refuse to install samples and INET framework.
+<img src="https://i.imgur.com/LKJJgDX.png" width="50%" height="50%">
 
-Finally, import the QUISP project into your workspace. You can use the
-`File > Import...` menu, then select the `General > Existing Projects into Workspace`
-wizard. As a root directory of the project, select the quisp folder.
+Finally, import the QUISP project into your workspace. 
+You can use the `File > Import...` menu, then select the `General > Existing Projects into Workspace` wizard.
+
+<img src="https://i.imgur.com/9PzfAyV.png" width="50%" height="50%">
+
+As a root directory of the project, select the quisp folder.
 In the list of suggested projects, check the only project that appears then
 click `Finish`.
+<img src="https://i.imgur.com/V41W3Wp.png" width="50%" height="50%">
 
 When you did this, the GUI created two folders, `.metadata` for the
 workspace and `.settings` for the project, that are ignored by the git
 repository.
 
 ```
-home/
-└── projects/
-    └── quisp/
-        ├── .git/
-        ├── setenv*
-        ├── .metadata/
-        └── quisp/
-            └── .settings/
+quisp/
+├── .git/
+├── setenv*
+├── .metadata/
+└── quisp/
+     └── .settings/
 ```
 
 ## Configure building
 
-Open `Project > Properties` for the quisp project, then in the category `OMNeT++ > Makemake`
-you should get a warning.
+Open `Project > Properties` for the quisp project.
 
+<img src="https://i.imgur.com/BTE7Bl1.png" width="50%" height="25%">
+
+then in the category `OMNeT++ > Makemake` you should get a warning.
 *No makefile has been specified for this project.*
+<img src="https://i.imgur.com/cDj1HWg.png" width="50%" height="50%">
+
 
 Click on the `quisp` folder below the warning, select the `Makemake` box.
 
