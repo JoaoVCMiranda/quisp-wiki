@@ -94,4 +94,4 @@ If you are having trouble with the install, you can peruse the [FAQ](/sfc-aqua/q
 
 ## Next Step: QuISP!
 
-Go to [Setup OMNeT++ IDE](/sfc-aqua/quisp/wiki/Setup-OMNeT-IDE).
+Go to [Setup OMNeT++ IDE](/sfc-aqua/quisp/wiki/Building-QuISP-with-OMNeT-IDE).
