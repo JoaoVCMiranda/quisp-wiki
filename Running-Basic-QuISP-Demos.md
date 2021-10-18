@@ -48,7 +48,7 @@ to start instead from a set of basic demos:
 
 ## Opening a Simulation
 
-(If you arrived here from [Build on Windows](Build_on_windows.md),
+(If you arrived here from [Install OMNeT++ for Windows](/sfc-aqua/quisp/wiki/Install-OMNeT---for-Windows),
 some of this will look redundant; if not, we encourage you to skim
 that document regardless of your platform.)
 
@@ -165,13 +165,12 @@ justification and detailed descriptions of the options.  It is in the
 file `HardwareMonitor.cc`, when you are ready to dig into code, since
 it was all developed for the HM to characterize links.  Look for the
 function `HardwareMonitor::sendLinkTomographyRuleSet`.  You can read
-[the online copy](https://github.com/sfc-aqua/quisp/blob/master/quisp/modules/HardwareMonitor.cc)
-or, better, generate the doxygen documentation and read locally on
-your machine; the additional formatting is valuable, _circuit images_
+[the online copy](https://github.com/sfc-aqua/quisp/blob/master/quisp/modules/QRSA/HardwareMonitor/HardwareMonitor.cc)
+or, better, generate the doxygen documentation and read both locally on
+your machine or online for the latest master; the additional formatting is valuable, _circuit images_
 are included, and it is the best way to ensure that the document you are
-reading corresponds to the code you are executing.  If you are already
-reading this document locally, [this link](html/classquisp_1_1modules_1_1_hardware_monitor.html) _may_ take
-you there.
+reading corresponds to the code you are executing. 
+[online version](https://aqua.sfc.wide.ad.jp/quisp/classquisp_1_1modules_1_1_hardware_monitor.html)
 
 ## What the Heck am I Looking At?
 
@@ -302,4 +301,4 @@ are specific to QuISP.
 ### Next steps
 
 When you are ready to start contributing, you can start reading the
-code, as [we have done](code-spelunking.md).
+code, as [we have done](../Code-Spelunking).
