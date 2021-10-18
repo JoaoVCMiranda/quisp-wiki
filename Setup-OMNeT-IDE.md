@@ -11,6 +11,17 @@ $ source setenv
 Environment for 'omnetpp-5.x' in directory '/home/.local/lib/omnetpp-5.x' is ready.
 ```
 
+## Cloning QuISP
+go to where you want to clone QuISP and then clone QuISP from GitHub. 
+```sh
+$ git clone https://github.com/sfc-aqua/quisp
+```
+if you are using ssh,
+```sh
+$ git clone git@github.com:sfc-aqua/quisp
+```
+
+## Start OMNeT++ IDE and configure a workspace for QuISP
 and then, run `omnetpp` command to start OMNeT++ IDE
 ```sh
 $ omnetpp
