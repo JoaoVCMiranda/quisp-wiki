@@ -7,6 +7,7 @@ we use OMNeT++5.6.2 primarily, but we want to OMNeT++5.7 and 6 later.
 |  5.6.2    |  MacOS 11.6(Intel) docker          |      ✅      |    ✅        |          ✅     |  ✅          |
 |  5.6.2    |  MacOS 11.6(Intel)                 |      ✅      |    ✅        |          ✅     |  ✅          |
 |  5.6.2    |  MacOS 12.1(M1) docker             |      ❌      |    ✅        |          ✅     | ✅        |
+|  5.6.2    |  MacOS 12.1(M1)                    |   (wip)      |    (wip)    |       (wip)     |  (wip)       |
 |  5.6.2    |  Windows 11(Intel)                 |      ✅      |    ❌        |        ❌       |  ✅       |
 |  5.6.2    |  WebAssembly                       |      ✅      |    ❌        |        ❌       |  ❌       |
 |  5.7      |  MacOS 11.6(Intel)                 |   (wip)      |    (wip)    |       (wip)     |  (wip)       |
