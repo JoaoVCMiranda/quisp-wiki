@@ -19,6 +19,7 @@ the latest version is 5.7
 * [Using OMNeT++ IDE](Building-QuISP-with-OMNeT-IDE)
 * [Running Basic Demos](Running-Basic-QuISP-Demos)
 * [Performance Analysis](Performance-Analysis)
+* [Confirming Basic Operations](Confirming-Basic-Operations)
 * [FAQ](FAQ)
 
 ### 3. Setup Development Environment
