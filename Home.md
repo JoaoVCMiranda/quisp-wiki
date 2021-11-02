@@ -18,6 +18,7 @@ the latest version is 5.7
 ### 2. Build QuISP and run a simulation
 * [Using OMNeT++ IDE](Building-QuISP-with-OMNeT-IDE)
 * [Running Basic Demos](Running-Basic-QuISP-Demos)
+* [Performance Analysis](Performance-Analysis)
 * [FAQ](FAQ)
 
 ### 3. Setup Development Environment
