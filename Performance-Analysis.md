@@ -1,5 +1,8 @@
+[The OMNeT++ provides basic tools for performance analysis](https://doc.omnetpp.org/omnetpp/manual/#cha:ana-sim). 
+On this page, we will describe how to collect data from the simulation and analyze the results with OMNeT++ IDE and python.
+ 
 ## What can we get?
-The OMNeT++ provides basic tools for performance analysis. What we can get in the performance analysis is some plots like these.
+What we can get in the performance analysis is some plots like these.
 ![](https://i.imgur.com/YuLxTSm.png)
 ![](https://i.imgur.com/S5b4HG8.png)
 
