@@ -1,5 +1,3 @@
-# Performance Analysis for QuISP
-
 ## What can we get?
 The OMNeT++ provides basic tools for performance analysis. What we can get in the performance analysis is some plots like these.
 ![](https://i.imgur.com/YuLxTSm.png)
