@@ -1,4 +1,4 @@
-we use OMNeT++5.6.2 primarily, but we plan to OMNeT++5.7 and 6 later.
+we use OMNeT++5.6.2 primarily, but we want to OMNeT++5.7 and 6 later.
 
 |  OMNeT++  |  Platform                          |  Simulation  |  Unit tests  |  Module tests  |  E2E tests   | 
 |  ----     |  ----                              |  ----        |  ----        |       ----     |  ----        |
@@ -6,7 +6,7 @@ we use OMNeT++5.6.2 primarily, but we plan to OMNeT++5.7 and 6 later.
 |  5.6.2    |  Ubuntu 21.04                      |      ✅      |    ✅        |          ✅     |  ✅          |
 |  5.6.2    |  MacOS 11.6(Intel) docker          |      ✅      |    ✅        |          ✅     |  ✅          |
 |  5.6.2    |  MacOS 11.6(Intel)                 |      ✅      |    ✅        |          ✅     |  ✅          |
-|  5.6.2    |  MacOS 12.1(M1) docker             |      ❌      |    ✅        |       (wip)     | ✅        |
+|  5.6.2    |  MacOS 12.1(M1) docker             |      ❌      |    ✅        |          ✅     | ✅        |
 |  5.6.2    |  Windows 11(Intel)                 |      ✅      |    ❌        |        ❌       |  ✅       |
 |  5.6.2    |  WebAssembly                       |      ✅      |    ❌        |        ❌       |  ❌       |
 |  5.7      |  MacOS 11.6(Intel)                 |   (wip)      |    (wip)    |       (wip)     |  (wip)       |
