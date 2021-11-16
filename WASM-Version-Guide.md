@@ -6,7 +6,7 @@ We can
 * run a QuISP simulation
 * pause the simulation and watch the packets
 * see the network configuration (.ned files)
-* record results of the simulation (e.g bell-pair generation rate)
+* record results of the simulation (e.g the number of bell-pair generation)
 * download the recording results and analyze them in your OMNeT++ IDE
 
 ## Run a simulation
