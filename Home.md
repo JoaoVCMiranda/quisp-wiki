@@ -1,7 +1,7 @@
 Welcome to the QuISP wiki!
 
 ### What is QuISP?
-see [READEME](https://github.com/sfc-aqua/quisp#quisp)
+see [README](https://github.com/sfc-aqua/quisp#quisp)
 
 ### 1. OMNeT++ Installation
 
