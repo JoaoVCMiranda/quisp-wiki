@@ -33,3 +33,5 @@ if you plan to contribute to QuISP, these pages would help you.
 * [Terminology](Terminology)
 * [Contributing to QuISP](https://github.com/sfc-aqua/quisp/blob/master/.github/CONTRIBUTING.md)
 * [Doxygen](https://aqua.sfc.wide.ad.jp/quisp/)
+* [CI and Integrated Tools](CI-and-Integrated-Tools)
+
