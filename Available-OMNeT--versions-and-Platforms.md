@@ -2,6 +2,7 @@ we use OMNeT++5.6.2 primarily, but we want to OMNeT++5.7 and 6 later.
 
 |  OMNeT++  |  Platform                          |  Simulation  |  Unit tests  |  Module tests  |  E2E tests   |  commit  |
 |  ----     |  ----                              |  ----        |  ----        |       ----     |  ----        | ----   |
+|  5.6.2    |  [WebAssembly](https://aqua.sfc.wide.ad.jp/quisp-online/master/)                       |      ✅      |    ❌        |        ❌       |  ❌       |  PR[#303](https://github.com/sfc-aqua/quisp/pull/303)  |
 |  5.6.2    |  Ubuntu 18.04 docker               |      ✅      |    ✅        |          ✅     |  ✅          |    |
 |  5.6.2    |  Ubuntu 20.04                      |      ✅      |    ✅        |          ✅     |  ✅          |    |
 |  5.6.2    |  MacOS 11.6(Intel) docker          |      ✅      |    ✅        |          ✅     |  ✅          |    |
@@ -9,7 +10,6 @@ we use OMNeT++5.6.2 primarily, but we want to OMNeT++5.7 and 6 later.
 |  5.6.2    |  MacOS 12.1(M1) docker             |      ❌      |    ✅        |          ✅     | ✅        |    |
 |  5.6.2    |  MacOS 12.1(M1)                    |   ❌      |    ❌    |       ❌    |  ❌       |    |
 |  5.6.2    |  Windows 11(Intel)                 |      ✅      |    ✅         |        ❌       |  ✅       |    |
-|  5.6.2    |  WebAssembly                       |      ✅      |    ❌        |        ❌       |  ❌       |    |
 |  5.7      |  MacOS 11.6(Intel)                 |      ❌      |    ❌        |       ❌       |    ❌       |    |
 |  5.7      |  MacOS 12.0.1(Intel)               |      ✅      |    ✅        |       (wip)     |  ✅        |    |
 |  5.7      |  MacOS 11.6(Intel) docker          |     ✅       |    ✅       |       ✅         |  ✅       |    PR[#308](https://github.com/sfc-aqua/quisp/pull/308)   |
