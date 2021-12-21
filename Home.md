@@ -38,6 +38,8 @@ if you plan to contribute to QuISP, these pages would help you.
 ### Useful links for developers
 * [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
   * if you're puzzled about how to write C++ code, this guide might help you.
+* [Pro Git](https://git-scm.com/book/en/v2)
+  * if you're confused with git, see the official book.
 * [OMNeT++ Simulation Manual](https://doc.omnetpp.org/omnetpp/manual/)
 * [SOURCETRAIL](https://www.sourcetrail.com/)
   * the source explorer. you can find where the method/variable/class are used/referred/defined.
