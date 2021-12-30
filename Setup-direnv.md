@@ -1,4 +1,4 @@
-1. install https://github.com/direnv/direnv
+1. install https://github.com/direnv/direnv　and setup https://github.com/direnv/direnv/blob/master/docs/hook.md
 2. create `.envrc` like this in your quisp root (here, the root is `/home/user/quisp`)
 ```sh
 PATH_add "/home/user/omnetpp-5.7/bin"
