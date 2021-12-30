@@ -46,7 +46,7 @@ $ brew install bear
 
 ``` 
 
-/quisp-project-root/ $ make distclean; bear -- make
+/quisp-project-root/ $ make distclean; bear -- make run-unit-test
 ```
 
 09. After successfully rebuild QuISP, confirm that `compiled_command.json` is created successfully. The file should contain something like snippets below. It will create one compile arguments for each file as one json object in the array.
