@@ -8,7 +8,7 @@ when you run `source setenv`, your system aliases `make` to `gmake`.
 -->
 
 ## Download OMNeT++5
-1. get the latest release (5.7 for now) of OMNeT++ for MacOS from their website [https://omnetpp.org/download/](https://omnetpp.org/download/). <br/>click "MAC OS" tab, and then click the green "DONWLOAD" button. <img src="https://i.imgur.com/ZC7bwRo.png"/>
+1. get the latest release (5.7 for now) of OMNeT++ for MacOS from their website [https://omnetpp.org/download/](https://omnetpp.org/download/). <br/>　**click "MAC OS" tab**, and then click the green "DONWLOAD" button. <img src="https://i.imgur.com/ZC7bwRo.png"/>
 
 2. uncompress it. you can just click "omnetpp-5.x-macos-x86_64.tgz" in "Finder" to uncompress. ![](https://i.imgur.com/QBESAay.png)
 3. put it where you want
