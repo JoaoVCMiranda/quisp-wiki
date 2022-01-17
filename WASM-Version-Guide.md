@@ -1,4 +1,4 @@
-QuISP is now available on your Web Browser by using WebAssembly (WASM).
+QuISP is now available to run directly on your Web Browser by using WebAssembly (WASM).
 Go to [https://aqua.sfc.wide.ad.jp/quisp-online/master/](https://aqua.sfc.wide.ad.jp/quisp-online/master/)
 
 ![QuISP Wasm screenshot](https://i.imgur.com/aNcC0n4.png)
