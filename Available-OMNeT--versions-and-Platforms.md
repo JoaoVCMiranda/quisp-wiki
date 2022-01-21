@@ -1,4 +1,4 @@
-we use OMNeT++5.6.2 primarily, but we want to OMNeT++5.7 and 6 later.
+we use OMNeT++5.7 primarily, but we want to move to 6 later.
 
 |  OMNeT++  |  Platform                          |  Simulation  |  Unit tests  |  Module tests  |  E2E tests   |  commit  |
 |  ----     |  ----                              |  ----        |  ----        |       ----     |  ----        | ----   |
