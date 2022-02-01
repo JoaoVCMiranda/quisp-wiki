@@ -1,4 +1,4 @@
-1. install https://github.com/direnv/direnv　
+1. install https://github.com/direnv/direnv
 2. setup https://github.com/direnv/direnv/blob/master/docs/hook.md
 3. create `.envrc` like this in your quisp root (here, the root is `/home/user/quisp`)
 ```sh
