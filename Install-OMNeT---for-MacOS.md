@@ -7,18 +7,18 @@ This version cannot build OMNeT++ properly. HomeBrew installs GNU Make 4 as `gma
 when you run `source setenv`, your system aliases `make` to `gmake`.
 -->
 
-## Download OMNeT++5
-1. get the latest release (5.7 for now) of OMNeT++ for MacOS from their website [https://omnetpp.org/download/old](https://omnetpp.org/download/old). <br/>　**click "MAC OS" tab**, and then click the green "DONWLOAD" button. <img src="https://i.imgur.com/ZC7bwRo.png"/>
+## Download OMNeT++6
+1. get the latest release (6.0 for now) of OMNeT++ for MacOS from their website [https://omnetpp.org/download/](https://omnetpp.org/download/). <br/>　**click "MAC OS" tab**, and then click the green "DONWLOAD" button. <img src="https://i.imgur.com/u0phZvR.png"/>
 
-2. uncompress it. you can just click "omnetpp-5.x-macos-x86_64.tgz" in "Finder" to uncompress. ![](https://i.imgur.com/QBESAay.png)
+2. uncompress it. you can just click "omnetpp-6.0-macos-x86_64.tgz" in "Finder" to uncompress. ![](https://i.imgur.com/C8X1S3o.png)
 3. put it where you want
 
-## Build OMNeT++5
-1. go to `omnetpp-5.x`.
+## Build OMNeT++6
+1. go to `omnetpp-6.0`.
 2. run `source setenv` to reflect environment variables.
 ```sh
 $ source setenv
-Environment for 'omnetpp-5.7' in directory '/Users/zigen/src/omnetpp-5.7' is ready.
+Environment for 'omnetpp-6.0' in directory '/Users/zigen/src/omnetpp-6.0' is ready.
 ```
 3. run `./configure`
 ```sh
@@ -66,6 +66,6 @@ filereader.cc
 linetokenizer.cc
 ...
 ```
-## Start OMNeT++5 IDE 
+## Start OMNeT++6 IDE 
 run `omnetpp` then you can see the eclipse based OMNeT++ IDE.
 Go to [Building QuISP with OMNeT++ IDE](/sfc-aqua/quisp/wiki/Building-QuISP-with-OMNeT-IDE)
