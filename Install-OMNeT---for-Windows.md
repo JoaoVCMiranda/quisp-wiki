@@ -1,11 +1,11 @@
-## Download OMNeT++5
+## Download OMNeT++6
 1. download Windows build from [here](https://omnetpp.org/download/).
 2. OMNeT++ will be downloaded as a zip file. Once the download is complete, extract the file, you should see these files in the extracted directory.
 
 ![](https://i.imgur.com/oV6n4N4.png)
 3. put it where you want.
 
-## Build OMNeT++5
+## Build OMNeT++6
 click `mingwenv.cmd`, which will start a console with the MSYS bash shell.
 In the shell, type the following commands:
 
@@ -66,7 +66,7 @@ $ git clone https://github.com/sfc-aqua/quisp.git
 
 *Execute* the command `omnetpp` from mingwenv console. When the dialogue comes up, select your workspace and click *Launch*.
 
-*Warning: Setting workspace as `<Directory where you extracted omnetpp>\omnetpp-5.x.x\quisp` is highly recommended.*
+*Warning: Setting workspace as `<Directory where you extracted omnetpp>\omnetpp-6.x.x\quisp` is highly recommended.*
 
 
 
