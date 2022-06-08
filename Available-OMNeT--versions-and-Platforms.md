@@ -1,7 +1,6 @@
-we use OMNeT++5.7 primarily, but we want to move to 6 later.
-
 |  OMNeT++  |  Platform                          |  Simulation  |  Unit tests  |  Module tests  |  E2E tests   |  commit  |
 |  ----     |  ----                              |  ----        |  ----        |       ----     |  ----        | ----   |
+|  6.0      | MacOS 12.4 (Intel)                 |      ✅      |    ✅         |       ✅       |       ✅     |  PR[#394](https://github.com/sfc-aqua/quisp/pull/394)    |
 |  5.7    |  [WebAssembly](https://aqua.sfc.wide.ad.jp/quisp-online/master/)                       |      ✅      |    ❌        |        ❌       |  ❌       |  PR[#380](https://github.com/sfc-aqua/quisp/pull/380)  |
 |  5.7      |  MacOS 11.6(Intel)                 |      ❌      |    ❌        |       ❌       |    ❌       |    |
 |  5.7      |  MacOS 12.0.1(Intel)               |      ✅      |    ✅        |       ✅     |  ✅        |    |
