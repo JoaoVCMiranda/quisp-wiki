@@ -14,6 +14,63 @@ This on MacOS Catalina (10.15.3) and Mojave(10.14).
 
 ---
 
+## Easier way (Beta)
+
+This is just a beta version of a newer, more automated (and hopefully more robust) installation process. If it doesn't work properly for you, please open an issue on Github and/or contact us via Slack. You can also skip down lower in this file for the older, manual installation instructions.
+
+1. Open your terminal and run
+
+```zsh
+$ git clone https://github.com/sfc-aqua/quisp.git
+```
+
+You can download quisp from github.
+Enter quisp with `cd quisp`
+2. Run shell script
+
+```zsh
+$ sh docker_tools.sh
+```
+
+After you have successfully installed the related tools, please reboot your laptop. (Maybe just rebooting your terminal is enough.)
+
+3. Build docker container
+
+Open terminal and run,
+
+```zsh
+$ docker pull ghcr.io/sfc-aqua/quisp
+```
+
+A docker image called quisp should have been created. You can check with the command `docker images`.
+
+4. Run docker container
+
+OK, now you can enter the container.
+
+```zsh
+$ sh docker_run.sh
+```
+
+5. Try quisp!
+
+If all of the processing completed successfully, you should see
+
+```zsh
+quisp:/root/quisp$
+```
+
+Open omnet with
+
+```zsh
+quisp:/root/quisp$ omnetpp
+```
+
+Enjoy quisp!
+
+---
+
+
 ## 1. Install docker
 
 You need a docker hub account to pulls images. Register [here](https://hub.docker.com/).
