@@ -14,9 +14,7 @@ This on MacOS Catalina (10.15.3) and Mojave(10.14).
 
 ---
 
-## Easier way (Beta)
-
-This is just a beta version of a newer, more automated (and hopefully more robust) installation process. If it doesn't work properly for you, please open an issue on Github and/or contact us via Slack. You can also skip down lower in this file for the older, manual installation instructions.
+## Automated way
 
 1. Open your terminal and run
 
@@ -52,6 +50,13 @@ OK, now you can enter the container.
 $ sh docker_run.sh
 ```
 
+If this error pops up,
+```zsh
+docker_run.sh: line 15: xhost: command not found
+docker_run.sh: line 15: xterm: command not found
+```
+add `/usr/X11/bin` (might vary) to your path
+
 5. Try quisp!
 
 If all of the processing completed successfully, you should see
@@ -70,10 +75,11 @@ Enjoy quisp!
 
 ---
 
+## Manual way
 
 ## 1. Install docker
 
-You need a docker hub account to pulls images. Register [here](https://hub.docker.com/).
+You need a docker hub account to pull images. Register [here](https://hub.docker.com/).
 
 For using docker, you need to install docker app from [here](https://hub.docker.com/editions/community/docker-ce-desktop-mac) or if you're using [`brew`](https://brew.sh/), you can install it with
 ```zsh
