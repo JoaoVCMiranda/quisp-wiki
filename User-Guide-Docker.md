@@ -4,8 +4,7 @@ This is instruction for installing omnetpp and quisp on docker.
 This on MacOS Catalina (10.15.3) and Mojave(10.14).
 
 ## TL;DR
-- Install docker to your host machine
-- Install XQuartz and socat
+- Install brew, docker, XQuartz and socat with `sh docker_tools.sh`
 - clone quisp
 - `docker pull ghcr.io/sfc-aqua/quisp`
 - Somewhere in your host OS, run `socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
