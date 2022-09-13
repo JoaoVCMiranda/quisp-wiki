@@ -7,8 +7,6 @@ This on MacOS Catalina (10.15.3) and Mojave(10.14).
 - Install brew, docker, XQuartz and socat with `sh docker_tools.sh`
 - clone quisp
 - `docker pull ghcr.io/sfc-aqua/quisp`
-- Somewhere in your host OS, run `socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
-- Add your host machine IP address to xterm with `xhost` command.
 - Run docker with `sh docker_run.sh`
 - Run `omnetpp` command on the docker container
 
