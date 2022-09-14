@@ -43,6 +43,6 @@ if you plan to contribute to QuISP, these pages would help you.
 * [Pro Git](https://git-scm.com/book/en/v2)
   * if you're confused with git, see the official book.
 * [OMNeT++ Simulation Manual](https://doc.omnetpp.org/omnetpp/manual/)
-* [SOURCETRAIL](https://www.sourcetrail.com/)
+* [SOURCETRAIL](https://github.com/CoatiSoftware/Sourcetrail)
   * the source explorer. you can find where the method/variable/class are used/referred/defined.
 
