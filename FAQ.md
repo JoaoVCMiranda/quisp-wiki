@@ -46,6 +46,27 @@ If you get this kind of error message when you use `xhost` command,
 export PATH="/opt/X11/lib$PATH"
 ```
 
+### Q: I got an error when I built quisp on my local environment
+If you get the following error after you ran make exe
+
+```zsh
+make[1]: *** No rule to make target `out/clang-release//backends/ErrorTracking/Backend.o', needed by `out/clang-release//quisp'.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2
+```
+
+- A: If you have an older version of make, you might get something like this.
+```zsh
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-apple-darwin11.3.0
+```
+
+The newest version of make is 4.3 (as of Oct 25th, 2022), so you have to install the latest version.
 
 ## Now what?
 
