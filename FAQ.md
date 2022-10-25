@@ -46,9 +46,7 @@ If you get this kind of error message when you use `xhost` command,
 export PATH="/opt/X11/lib$PATH"
 ```
 
-### Q: I got an error when I built quisp on my local environment
-If you get the following error after you ran make exe
-
+### Q: I got an error when I built quisp (especially make exe) on my local environment
 ```zsh
 make[1]: *** No rule to make target `out/clang-release//backends/ErrorTracking/Backend.o', needed by `out/clang-release//quisp'.  Stop.
 make[1]: *** Waiting for unfinished jobs....
