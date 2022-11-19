@@ -7,7 +7,7 @@ see [README](https://github.com/sfc-aqua/quisp#quisp)
 
 OMNeT++ is an extensible, modular, component-based C++ simulation library and framework and is used to simulate the network.
 First of all, you need to install OMNeT++. Choose your environment below.
-the latest version is 5.7
+the latest version is 6.0.1
   * [Docker](User-Guide-Docker)
   * Native
     * [Linux](Install-OMNeT---for-Linux)
