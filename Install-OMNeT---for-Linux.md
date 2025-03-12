@@ -205,9 +205,6 @@ CFLAGS_RELEASE='-O3 -DNDEBUG=1'
 ...
 ```
 
-> [!TIP]
-> If you get stuck with setting the environment variables for OpenSceneGraph and you're not going to use the 3D-features of the simulador just deactivate it
-
 
 ##### Configure
 ```sh
